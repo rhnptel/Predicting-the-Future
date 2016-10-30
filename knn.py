@@ -6,7 +6,7 @@ from sklearn.neighbors import DistanceMetric as dm
 import collections
 
 
-df = pd.read_csv('/Users/rohanpatel/downloads/iris.data.csv', names = ['sepal_length', 'sepal_width', 'petal_length', 'class'])
+df = pd.read_csv('/Users/rohanpatel/downloads/iris.data.csv', names = ['sepal_length', 'sepal_width', 'petal_length', 'petal width' 'class'])
 
 df['class'] = pd.Categorical(df['class']).codes
 
