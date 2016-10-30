@@ -63,7 +63,7 @@ def knn(k):
 
 knn(8)
 
-#Iris-setosa is the majority fo the class subset.
+#Iris-setosa is the majority for the class subset.
 #Iris-setosa has 5 of the 8 points in the subset.
 
 
